@@ -65,10 +65,11 @@ A full-stack SaaS platform for content creators to collaborate on videos before 
 
 ---
 
-### [Leegality Search Optimization](https://github.com/PranshuBarar/Search-Optimization-Architecture) — Real-Time CDC Search Pipeline
+### [Leegality Search Optimization](https://github.com/PranshuBarar/Search-Optimization-Architecture-V2) — Real-Time CDC Search Pipeline
 Designed and implemented a real-time data synchronization architecture from MySQL to Elasticsearch using Change Data Capture.
 
 **The problem solved:**
+- Iterated from an initial [polling-based V1 architecture](https://github.com/PranshuBarar/Search-Optimization-Architecture) to this final event-driven V2.
 - MySQL full-text search: ~34 seconds per query
 - Elasticsearch (after migration): 400–500ms (cached: 50ms)
 - 68× performance improvement at 10,000 concurrent users (JMeter tested)
