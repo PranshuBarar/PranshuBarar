@@ -6,7 +6,7 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 
 ---
 
-## 🔧 What I Work With
+##  What I Work With
 
 **Cloud & Infrastructure**
 
@@ -38,7 +38,7 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 
 ---
 
-## 🏆 Certifications
+## Certifications
 
 | Certification | Issued |
 |---|---|
@@ -49,7 +49,7 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### [CueCoLab](https://github.com/PranshuBarar/CueCoLab-Backend) — Collaborative Video Platform (SaaS)
 A full-stack SaaS platform for content creators to collaborate on videos before publishing.
@@ -84,7 +84,7 @@ Designed and implemented a real-time data synchronization architecture from MySQ
 
 ---
 
-## 🌱 Currently
+## Currently
 
 - Going deep on Kubernetes — unwrapping it to bare Linux primitives (namespaces, cgroups, eBPF, CNI)
 - Preparing for CKA → CKAD → CKS
