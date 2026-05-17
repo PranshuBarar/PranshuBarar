@@ -6,7 +6,7 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 
 ---
 
-##  What I Work With
+## What I Work With
 
 **Cloud & Infrastructure**
 
@@ -54,6 +54,8 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 ### [CueCoLab](https://github.com/PranshuBarar/CueCoLab-Backend) — Collaborative Video Platform (SaaS)
 A full-stack SaaS platform for content creators to collaborate on videos before publishing.
 
+> **🎥 Watch the Full Demo Video Here:** [CueCoLab 5-Minute Demo](https://www.loom.com/share/82fd4fc702f441a9b76cc13c13015f46)
+
 **What's under the hood:**
 - HLS video streaming via AWS CloudFront signed URLs
 - Async video transcoding pipeline: S3 → EventBridge → Lambda → SQS → ECS Fargate (ffmpeg)
@@ -92,7 +94,7 @@ Designed and implemented a real-time data synchronization architecture from MySQ
 
 ---
 
-## 📫 Let's Connect
+## Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranshubarar)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/PranshuBarar1)
