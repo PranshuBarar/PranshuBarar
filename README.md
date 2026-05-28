@@ -69,7 +69,7 @@ A full-stack SaaS platform for content creators to collaborate on videos before 
 
 ---
 
-### [Leegality Search Optimization](https://github.com/PranshuBarar/Search-Optimization-Architecture-V2) — Real-Time CDC Search Pipeline
+### [Real-Time CDC Search Pipeline](https://github.com/PranshuBarar/Search-Optimization-Architecture-V2)
 Designed and implemented a real-time data synchronization architecture from MySQL to Elasticsearch using Change Data Capture.
 
 **The problem solved:**
