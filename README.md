@@ -45,7 +45,6 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 | ☁️ AWS Certified Solutions Architect – Associate | Sep 2023 |
 | ☁️ AWS Certified Developer – Associate | Oct 2023 |
 | ☁️ AWS Certified SysOps Administrator – Associate | Nov 2023 |
-| 🚢 CKA / CKAD / CKS *(in progress)* | 2026 |
 
 ---
 
