@@ -54,7 +54,9 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 ### [CueCoLab](https://github.com/PranshuBarar/CueCoLab-Backend) — Collaborative Video Platform (SaaS)
 A full-stack SaaS platform for content creators to collaborate on videos before publishing.
 
-> **🎥 Watch the Full Demo Video Here:** [CueCoLab 5-Minute Demo](https://www.loom.com/share/82fd4fc702f441a9b76cc13c13015f46)
+> **🎥 Demo** — Click the thumbnail to watch the full walkthrough:
+>
+> [![CueCoLab Demo](https://github.com/PranshuBarar/CueCoLab-Frontend/assets/117909106/e5843a8d-ad69-419e-9e89-16fed44195c3)](https://github.com/user-attachments/assets/bedcba01-bcc2-4ed7-93c7-be373b916a6a)
 
 **What's under the hood:**
 - HLS video streaming via AWS CloudFront signed URLs
