@@ -28,8 +28,10 @@ Career switcher. Physics grad. Former teacher. Now I architect systems for a liv
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat&logo=apachegroovy&logoColor=white)
+![JaCoCo](https://img.shields.io/badge/JaCoCo-C21325?style=flat)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat&logo=sonarqube&logoColor=white)
 ![CycloneDX](https://img.shields.io/badge/CycloneDX-0057A8?style=flat)
-![Dependency Track](https://img.shields.io/badge/Dependency_Track-4A90D9?style=flat)
 
 **Frontend**
 
@@ -69,21 +71,21 @@ A full-stack SaaS platform for content creators to collaborate on videos before 
 ---
 
 ### [Real-Time CDC Search Pipeline](https://github.com/PranshuBarar/Search-Optimization-Architecture-V2)
-Designed and implemented a real-time data synchronization architecture from MySQL to Elasticsearch using Change Data Capture.
+Architected a real-time data synchronization pipeline from MySQL to Elasticsearch using Change Data Capture — now powering all production searches company-wide.
 
 **The problem solved:**
 - Built an initial [polling-based V1 architecture](https://github.com/PranshuBarar/Search-Optimization-Architecture) from scratch, then identified its limitations and evolved it into this final event-driven V2.
 - MySQL full-text search: ~34 seconds per query
 - Elasticsearch (after migration): 400–500ms (cached: 50ms)
-- 68× performance improvement at 10,000 concurrent users (JMeter tested)
+- **68× performance improvement** across 10K+ concurrent users
 
 **Architecture:**
 - Debezium Source Connector reads MySQL binlog (CDC)
-- Kafka topics per table (zero custom consumer code)
+- Kafka topics per table (**zero custom consumer code**)
 - Elasticsearch Sink Connectors write directly to indices
-- Dynamic recursive Elasticsearch DSL query builder
+- Recursive Elasticsearch DSL query engine supporting arbitrarily nested boolean filters and partial-match searches
 
-`Debezium` `Apache Kafka` `Kafka Connect` `Elasticsearch` `MySQL` `Docker Compose` `JMeter`
+`Debezium` `Apache Kafka` `Kafka Connect` `Elasticsearch` `MySQL` `Docker Compose`
 
 ---
 
