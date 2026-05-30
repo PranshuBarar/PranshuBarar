@@ -74,7 +74,7 @@ A full-stack SaaS platform for content creators to collaborate on videos before 
 Architected a real-time data synchronization pipeline from MySQL to Elasticsearch using Change Data Capture — now powering all production searches company-wide.
 
 **The problem solved:**
-- Built an initial [polling-based V1 architecture](https://github.com/PranshuBarar/Search-Optimization-Architecture) from scratch, then identified its limitations and evolved it into this final event-driven V2.
+- Built an initial [polling-based V1 architecture](https://github.com/PranshuBarar/Search-Optimization-Architecture) from scratch, then identified its limitations and evolved it into this final [event-driven V2](https://github.com/PranshuBarar/Search-Optimization-Architecture-V2).
 - MySQL full-text search: ~34 seconds per query
 - Elasticsearch (after migration): 400–500ms (cached: 50ms)
 - **68× performance improvement** across 10K+ concurrent users
